@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ro.cc"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "shop",
+    "packageName": "ro.cc",
+    "packageFolder": "ro/cc",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MmU0YmEyNTNmZjAxNjQ2M2VhYjdkMGIwOGVlZDMxMjY2Y2YzMjlkMTRjN2NlNjhjYTNiNjQ1MTg0MDQ1YzFkMzhmODE1M2JlMDQ1NjgzZGMxNDZmODRkOGQ5ZTE5YjU0OWI2MGY5MWUzYWNmYTE4ZjMyOTdlODg5NjQ5ZjYxMzM=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
