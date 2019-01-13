@@ -1,0 +1,36 @@
+{
+    "name": "Product",
+    "fields": [
+        {
+            "fieldName": "productName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "productCategory",
+            "otherEntityName": "productCategory",
+            "otherEntityField": "categoryName"
+        }
+    ],
+    "changelogDate": "20181228152801",
+    "entityTableName": "product",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "shop",
+    "applications": "*",
+    "microserviceName": "shop"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "ProductCategory",
+    "fields": [
+        {
+            "fieldName": "categoryName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181228152800",
+    "entityTableName": "product_category",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "shop",
+    "applications": "*",
+    "microserviceName": "shop"
+}

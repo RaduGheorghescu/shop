@@ -1,0 +1,33 @@
+{
+    "name": "Review",
+    "fields": [
+        {
+            "fieldName": "comment",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "rating",
+            "fieldType": "RatingEnum",
+            "fieldValues": "WEAK,ACCEPTABLE,GOOD,RECOMMANDED,EXCELENT"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "product",
+            "otherEntityName": "product",
+            "otherEntityField": "productName"
+        }
+    ],
+    "changelogDate": "20181228152802",
+    "entityTableName": "review",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "shop",
+    "applications": "*",
+    "microserviceName": "shop"
+}
